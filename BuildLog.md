@@ -1,1 +1,2 @@
 - build `Aseprite_Fps` with full FPS controls (wheel support), quick timeline buttons and Spanish translation
+- build Aseprite_Fps with checkbox fps (checked by default) + arrows + input box + limits 4-99 + disable visual effect
