@@ -2354,7 +2354,7 @@ index 1985fdf..4e793cd 100644
 +
 +  Tx tx(writer, "Duplicate Frame Before");
 +  DocApi api = document->getApi(tx);
-+  api.copyFrame(sprite, writer.frame(), writer.frame(), doc::kDropBeforeFrame, doc::kDefaultTagsAdjustment);
++  api.copyFrame(sprite, writer.frame(), writer.frame(), docapi::kDropBeforeFrame, docapi::kDefaultTagsAdjustment);
 +  tx.commit();
 +
 +  update_screen_for_document(document);
