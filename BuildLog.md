@@ -1,1 +1,1 @@
-- build `Aseprite_Fps` with custom FPS controls, quick timeline buttons and Spanish translation
+- build `Aseprite_Fps` with full FPS controls (wheel support), quick timeline buttons and Spanish translation
