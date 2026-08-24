@@ -69,6 +69,11 @@ jobs:
         shell: bash
         run: |
           git clone --recurse-submodules -j8 https://github.com/aseprite/aseprite --branch ${{ needs.create-release.outputs.release-tag }}
+      - name: Apply Custom Features Patch
+        working-directory: aseprite
+        shell: bash
+        run: |
+          git apply --whitespace=fix ../custom_fps_features.patch
       - name: Install Skia
         working-directory: aseprite
         shell: bash
